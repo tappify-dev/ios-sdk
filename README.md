@@ -11,17 +11,17 @@ In Xcode: **File → Add Package Dependencies**, paste the repo URL, and add the
 `TappifySDK` library to your app target.
 
 ```
-https://github.com/tappify-dev/tappify-ios-dist
+https://github.com/tappify-dev/ios-sdk
 ```
 
 Or in `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/tappify-dev/tappify-ios-dist.git", from: "0.1.0")
+.package(url: "https://github.com/tappify-dev/ios-sdk.git", from: "0.1.0")
 ```
 
-Requires iOS 15+. This is a private package — if Xcode asks for credentials, ask
-your Tappify admin for access.
+Requires iOS 15+. The binary package is public; the SDK implementation source
+remains private.
 
 ## Quick start
 
